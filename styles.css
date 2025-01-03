@@ -1,0 +1,37 @@
+.header  {
+    font-family: 'Roboto', sans-serif;
+    background: #1F2937;
+  }
+
+.header {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    list-style-type: none;
+}
+
+a {
+    /* font-size: 22px; */
+    /* background: white; */
+    /* padding: 8px; */
+    text-decoration: none;
+}
+
+.left-links a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
