@@ -1,15 +1,7 @@
-.header  {
+body {
     font-family: 'Roboto', sans-serif;
-    background: #1F2937;
-  }
-
-.header {
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
-  
+
 ul {
     display: flex;
     margin: 0;
@@ -19,10 +11,16 @@ ul {
 }
 
 a {
-    /* font-size: 22px; */
-    /* background: white; */
-    /* padding: 8px; */
     text-decoration: none;
+}
+
+.header {
+    background: #1F2937;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .left-links a {
@@ -34,4 +32,38 @@ a {
 .right-links a {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.main-content {
+    background: #1F2937;
+    display: flex;
+}
+
+.text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    width: 100px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3882F6;
+    color: white;
+    /* make button rounder corner */
+    border-radius: 10px;
 }
