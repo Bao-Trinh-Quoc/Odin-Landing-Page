@@ -20,13 +20,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .left-links a {
     font-weight: bold;
     font-size: 24px;
     color: #F9FAF8;
+    /* padding-left: 200px; */
 }
 
 .right-links a {
@@ -37,13 +38,16 @@ a {
 .main-content {
     background: #1F2937;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    gap: 60px;
 }
 
 .text-button {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
 }
 
 .main-title {
@@ -66,4 +70,12 @@ a {
     color: white;
     /* make button rounder corner */
     border-radius: 10px;
+}
+
+.placeholder-image {
+    color: white;
+    /* make the padding gray */
+    background-color: #374151;
+    padding: 100px 120px;
+    align-self: center;
 }
