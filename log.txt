@@ -5,3 +5,5 @@ Begin the hereo section
 Did the first half of hero section
 
 05/01/2024
+Bug at the alignment of the hero section with the header section <-- seem like i haven't 
+have enough knowledge to solve this problem. I will go back to the theory.
