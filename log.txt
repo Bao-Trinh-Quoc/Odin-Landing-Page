@@ -12,3 +12,4 @@ have enough knowledge to solve this problem. I will go back to the theory.
 
 figure out the problem with the header section:
 should merge header and main-content into one div
+maybe will redo the header section in the near future
