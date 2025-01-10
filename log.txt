@@ -1,10 +1,12 @@
 03/01/2024
+
 Start this project, If stuck, i will go back to the theory.
 Begin the header section --- Done
 Begin the hereo section
 Did the first half of hero section
 
 05/01/2024
+
 Bug at the alignment of the hero section with the header section <-- seem like i haven't 
 have enough knowledge to solve this problem. I will go back to the theory.
 
@@ -13,3 +15,9 @@ have enough knowledge to solve this problem. I will go back to the theory.
 figure out the problem with the header section:
 should merge header and main-content into one div
 maybe will redo the header section in the near future
+
+10/01/2024
+
+Trying to fix the bug at header section, but still can't figure out the problem. :(
+Maybe I should add the community for this kind of dumb shit.
+At least found a way --- try relative size 
