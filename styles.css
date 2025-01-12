@@ -137,8 +137,8 @@ a {
     align-self: flex-end;
 }
 
-.container {
-    background: white;
+.call-container {
+    background-color: white;
     /* width: 400px; */
     height: 300px;
     display: flex;
@@ -146,11 +146,42 @@ a {
     align-items: center;
   }
   
-  .box {
+  .call-box {
     background: #3882F6;
     font-weight: bold;
-    text-align: center;
-    border: 6px solid maroon;
-    width: 200px;
-    height: 80px;
+    border-radius: 10px;
+    width: 75%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
+
+.call-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.call-subtext {
+    color: #E5E7EB;
+    font-size: 0.5em;
+}
+
+.signup-button-call {
+    width: 100px;
+    padding: 7px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    background-color: #3882F6;
+    color: white;
+    /* make button rounder corner */
+    border-radius: 10px;
+    border-color: white;
+}
+
+.footer-container {
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    text-align: center;
+}
